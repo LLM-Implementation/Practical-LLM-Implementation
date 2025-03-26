@@ -3,7 +3,7 @@
 Practical code examples and tutorials for fine-tuning various Large Language Models. Companion repo for YouTube guides.
 
 [![LLM Implementation](./images/LLM-Implementation-Channel.png)](www.youtube.com/@LLMImplementation)
-Hi! Welcome to the companion repository for the **LLM Implementation** YouTube channel ([www.youtube.com/@LLMImplementation](www.youtube.com/@LLMImplementation)). Here, I share code, notebooks, and resources related to my learnings and practical experiences in LLM implementation, including tutorials and project explorations focused specifically on **fine-tuning**.
+Hi! Welcome to the companion repository for the **LLM Implementation** YouTube channel www.youtube.com/@LLMImplementation. Here, I share code, notebooks, and resources related to my learnings and practical experiences in LLM implementation, including tutorials and project explorations focused specifically on **fine-tuning**.
 
 Fine-tuning allows you to adapt powerful pre-trained LLMs like Google Gemini, Llama, Mistral, and others to your specific tasks, domains, or desired output styles, often achieving better results than prompting alone. This repository contains hands-on examples exploring various fine-tuning techniques and models.
 
@@ -38,4 +38,4 @@ This project is licensed under the [MIT License](./LICENSE). *(Assumes you chose
 
 ---
 
-Let's learn and explore LLM fine-tuning together! Don't forget to check out the [LLM Implementation YouTube channel](www.youtube.com/@LLMImplementation) for video walkthroughs and discussions.
+Let's learn and explore LLM fine-tuning together! Don't forget to check out the www.youtube.com/@LLMImplementation for video walkthroughs and discussions.
