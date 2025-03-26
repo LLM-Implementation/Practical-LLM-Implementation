@@ -17,13 +17,6 @@ This repository is organized by model type:
 * **Description:** Examples focusing on fine-tuning Google's Gemini family of models, often utilizing Google Cloud Vertex AI.
 * **Current Examples:**
     * **[Supervised Fine-Tuning to Humanize Prompts](./gemini/supervised_humanizing_prompts/)**: Demonstrates data preparation (JSONL) and the process for supervised tuning on Vertex AI. *(Companion to: [Practical Gemini Fine-Tuning: Step-by-Step Guide with Vertex AI](https://youtu.be/MOaHlowhp8s))*
-        ### 2. Llama (Coming Soon!)
-
-* *(Placeholder for future examples fine-tuning Meta's Llama models)*
-
-### 3. Mistral (Coming Soon!)
-
-* *(Placeholder for future examples fine-tuning Mistral AI models)*
 
 ### (More models and techniques to be added!)
 
