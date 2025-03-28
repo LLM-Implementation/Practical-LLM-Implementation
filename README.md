@@ -1,4 +1,4 @@
-# Practical-LLM-Fine-Tuning
+# Practical-LLM-Implementation
 
 Practical code examples and tutorials for fine-tuning various Large Language Models. Companion repo for YouTube guides.
 
