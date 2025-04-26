@@ -139,3 +139,6 @@ agent_workflow*.log
 
 # Backup files
 *_backup.py
+
+# macOS specific files
+.DS_Store
