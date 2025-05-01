@@ -1,0 +1,22 @@
+# Set your Google Cloud Project ID
+export GOOGLE_CLOUD_PROJECT=
+
+# Set your desired Google Cloud Location
+export GOOGLE_CLOUD_LOCATION="us-central1" # Example location
+
+# Set the path to your agent code directory
+export AGENT_PATH="./google-search-agent" # Assuming capital_agent is in the current directory
+
+# Set a name for your Cloud Run service (optional)
+export SERVICE_NAME="google-search-agent"
+
+# Set an application name (optional)
+export APP_NAME="google-search-agent-app"
+
+# Get your Google Cloud project number
+gcloud projects describe $GOOGLE_CLOUD_PROJECT --format='value(projectNumber)'
+
+# Grant the required role (replace [PROJECT_NUMBER] with the number):
+gcloud projects add-iam-policy-binding $GOOGLE_CLOUD_PROJECT \
+  --member="serviceAccount:[PROJECT_NUMBER]@cloudbuild.gserviceaccount.com" \
+  --role="roles/iam.serviceAccountUser"
