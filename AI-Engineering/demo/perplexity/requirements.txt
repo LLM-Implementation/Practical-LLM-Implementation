@@ -1,0 +1,4 @@
+evaluate
+transformers
+torch
+accelerate
